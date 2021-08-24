@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    align-items: center;
+  
+  &__link {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: $accent-color;
+  }
+  
+  &__span--black {
+    color: $title-text-color;
+  }
+
+  &__span--wright {
+    color: $wright-color;
+  }
+}
