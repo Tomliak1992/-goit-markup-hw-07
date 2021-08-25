@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/common";
 @import "./components/logo";
 @import "./components/header";
 @import "./components/hero";
@@ -6,8 +7,8 @@
 @import "./components/modal";
 @import "./components/principles";
 @import "./components/photo";
-@import "./components/worker";
-@import "./components/client";
+@import "./components/workers";
+@import "./components/clients";
 @import "./components/footer";
 @import "./components/footer-form";
 @import "./components/filter";

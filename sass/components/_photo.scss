@@ -1,11 +1,11 @@
 .photo-section {
     display: flex;
     justify-content: space-between;
-  
-  &__thumb {
+} 
+.photo-section__thumb {
     position: relative;
-  }
-  &__bg {
+}
+.photo-section__bg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +14,16 @@
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
-    }
 }
-.images-text {
+
+.photo-section__text {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
   
     color: $wright-color;
+}
+
+.section__padding-reset {
+    padding-top: 0px;
 }
